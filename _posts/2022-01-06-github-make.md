@@ -1,6 +1,6 @@
 # 깃허브 블로그 만드는 법.
 
-http://jekyllthemes.org/ 로 들어가서 마음에 드는 테마를 고릅니다!
+[jekyllthemes.org](jekyllthemes.org) 로 들어가서 마음에 드는 테마를 고릅니다!
 
 ![image-20220107124514170](../images/2022-01-06-github-make/image-20220107124514170.png)
 
