@@ -102,11 +102,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "김영훈"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "김영훈의 블로그 입니다."
+  location         : "south korea"
+  email            : "woerh@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
