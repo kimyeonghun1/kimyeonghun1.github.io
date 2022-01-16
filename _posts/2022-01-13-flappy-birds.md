@@ -361,10 +361,52 @@ using UnityEngine.SceneManagement;
 
 
 
-
+씬을 불러오는 코드이다.
 
 ![image-20220114210124920](../images/2022-01-13/image-20220114210124920.png)
 
 
 
+
+
+File-Build Settings에 들어가 GameOverScene을 드래그 해서 추가해 준다.
+
 ![image-20220114210358685](../images/2022-01-13/image-20220114210358685.png)
+
+
+
+
+
+
+
+
+
+
+
+Hierachy에 Replay를 추가해 주고 Add Component로 Replay라는 스크립트를 하나 만들어 준다.
+
+
+
+Replay스크립트에 아래의 코드를 넣어준다.
+
+```c#
+public void ReplayGame(){
+        SceneManager.LoadScene("PlayScene");
+    }
+```
+
+
+
+Button에 Inspector창에서 on Click()에 방금 만들어준 Replay를 드래그해준다. 주의할점은 C#파일이 아닌 Hierachy안에 있는 파일어야 한다. 그러면 우리가 방금 입력한 코드가  ReplayGame() 함수의 형태로 나타나 있는 것을 볼 수 있다.  
+
+
+
+![image-20220115215740111](../images/2022-01-13-flappy-birds/image-20220115215740111.png)
+
+
+
+
+
+점수를 GameOverScene에 표시해주기 위해 CurrentScore라는 
+
+![image-20220115222501647](../images/2022-01-13-flappy-birds/image-20220115222501647.png)
