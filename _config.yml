@@ -110,9 +110,9 @@ author:
   location         : "광주"
   email            :
   links:
-    - label: "woerh@naver.com"
+    - label: "woerh2@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:woerh@naver.com"
+      url: "mailto:woerh2@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
