@@ -29,3 +29,13 @@ Tools- SDK Manager로 아래의 창을 열어준다. ->Edit클릭
 아래의 경로가 현제 SDK가 설치된 경로다. 오른쪽 폴더모양 아이콘을 클릭해 원하는 경로로 지정해 준다.
 
 ![image-20220118172151694](../images/Android-Studio-SDK-경로-오류/image-20220118172151694.png)
+
+
+
+안드로이드 스튜디오의 SDK의 위치를 바꾸는 방법 말고도 프로젝트에 지정되어 있는 SDK의 위치를 바꿔주는 방법이 있다.
+
+![image-20220120085505248](../images/2022-01-18-Android-Studio-SDK-경로-오류/image-20220120085505248.png)
+
+프로젝트 폴더로 가서 local.properties파일을 연다. 아래와 같이 한줄의 코드가 있다. SDK  Manager를 열었을때 나오는 SDK가 설치된 위치를 넣어주면 정상 작동한다.
+
+![image-20220120085551882](../images/2022-01-18-Android-Studio-SDK-경로-오류/image-20220120085551882.png)
